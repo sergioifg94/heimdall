@@ -15,7 +15,7 @@ spec:
       serviceAccountName: heimdall
       containers:
         - name: heimdall
-          image: quay.io/integreatly/heimdall-operator:master
+          image: quay.io/sfrancog/heimdall-operator:master
           ports:
           - containerPort: 60000
             name: metrics
